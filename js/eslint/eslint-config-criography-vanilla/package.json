@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-criography-vanilla",
+  "version": "1.0.0",
+  "description": "Vanilla JS ESLint config",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criography/frontend-standards"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Marek Lenik (https://twitter.com/criography)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/criography/frontend-standards/issues"
+  },
+  "homepage": "https://github.com/criography/frontend-standards",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-find-rules": "^3.2.2",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-optimize-regex": "^1.1.5",
+    "eslint-plugin-promise": "^3.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-optimize-regex": "^1.1.5",
+    "eslint-plugin-promise": "^3.7.0"
+  },
+  "engines": {
+    "node": ">= 9"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  }
+}

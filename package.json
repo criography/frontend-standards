@@ -1,0 +1,25 @@
+{
+  "name": "frontend-standards",
+  "version": "1.0.0",
+  "description": "Linters and guidelines",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criography/frontend-standards"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "es6",
+    "es2015",
+    "react",
+    "jsx"
+  ],
+  "author": "Marek Lenik (https://twitter.com/criography)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/criography/frontend-standards/issues"
+  },
+  "homepage": "https://github.com/criography/frontend-standards/"
+}

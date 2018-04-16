@@ -1,0 +1,7 @@
+{
+    "extends": [
+      "./rules/errors.js",  
+      "./rules/langFeatures.js",  
+      "./rules/style.js"
+    ]
+}
