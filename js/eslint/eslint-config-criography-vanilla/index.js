@@ -1,5 +1,5 @@
 module.exports = {
-    extends: [
+    extends : [
         './extensions/core/strict',
         './extensions/core/bestPractices',
         './extensions/core/possibleErrors',
@@ -12,9 +12,9 @@ module.exports = {
         './extensions/extras/babel'
     ].map(require.resolve),
 
-    parser: 'babel-eslint',
+    parser : 'babel-eslint',
 
-    parserOptions: {
+    parserOptions : {
         ecmaVersion : 2017,
         sourceType  : 'module',
         ecmaFeatures: {
@@ -24,15 +24,15 @@ module.exports = {
     },
 
 
-    env: {
+    env : {
         browser: true,
         node   : true,
         es6    : true
     },
 
-    globals: {
-        sleep: 1
+    globals : {
+        sleep : 1
     },
 
-    rules: {}
+    rules : {}
 };

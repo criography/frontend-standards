@@ -1,3 +1,7 @@
 {
-  "extends": "./index.js"
+    "extends": "./index.js",
+    "rules" : {
+        "max-lines" : "off",
+        "no-magic-numbers" : "off"
+    }
 }

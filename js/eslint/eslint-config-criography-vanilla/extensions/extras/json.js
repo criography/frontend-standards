@@ -1,5 +1,3 @@
 module.exports = {
-    plugins: [
-        'json'
-    ]
+    plugins : ['json']
 };
