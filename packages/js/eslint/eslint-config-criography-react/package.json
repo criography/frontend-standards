@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "React JS ESLint config",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "npx eslint --report-unused-disable-directives .",
+    "fix": "npx eslint --fix .",
+    "stage": "npm run fix && npm version patch",
+    "prepublish": "(in-publish && safe-publish-latest)"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/criography/frontend-standards"
@@ -25,9 +30,11 @@
     "eslint-config-criography-vanilla": "^1.0.0"
   },
   "devDependencies": {
-    "babel-preset-airbnb": "^2.4.0",
+    "babel-eslint": "^8.2.3",
+    "editorconfig-tools": "^0.1.1",
     "eslint": "^4.19.1",
     "eslint-find-rules": "^3.2.2",
+    "eslint-plugin-babel": "^5.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",

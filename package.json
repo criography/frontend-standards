@@ -2,8 +2,7 @@
   "name": "frontend-standards",
   "version": "1.0.0",
   "description": "Linters and guidelines",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/criography/frontend-standards"
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/criography/frontend-standards/issues"
   },
-  "homepage": "https://github.com/criography/frontend-standards/"
+  "homepage": "https://github.com/criography/frontend-standards/",
+  "devDependencies": {
+    "lerna": "^2.10.2"
+  }
 }
