@@ -1,13 +1,12 @@
 {
   "name": "eslint-config-criography-react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "React JS ESLint config",
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint --report-unused-disable-directives .",
     "fix": "npx eslint --fix .",
-    "stage": "npm run fix && npm version patch",
-    "prepublish": "(in-publish && safe-publish-latest)"
+    "stage": "npm run fix && npm version patch"
   },
   "repository": {
     "type": "git",
