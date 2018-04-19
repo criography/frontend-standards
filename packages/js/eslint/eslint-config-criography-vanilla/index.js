@@ -7,6 +7,7 @@ module.exports = {
         './extensions/core/variables',
         './extensions/core/es6',
         './extensions/extras/imports',
+        './extensions/extras/imports-arca',
         './extensions/extras/regex',
         './extensions/extras/promises',
         './extensions/extras/babel'
