@@ -103,7 +103,7 @@ module.exports = {
 
         // Prevent passing of children as props
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
-        'react/no-children-prop': 'error',
+        'react/no-children-prop': 'off',
 
 
         // Prevent usage of dangerous JSX properties
@@ -284,10 +284,10 @@ module.exports = {
                     'childContextTypes',
                     'mixins',
                     'statics',
-                    'constructor',
-                    'getDefaultProps',
-                    'getInitialState',
                     'state',
+                    'constructor',
+                    'getInitialState',
+                    'getDefaultProps',
                     'getChildContext',
                     'componentWillMount',
                     'componentDidMount',
@@ -319,6 +319,6 @@ module.exports = {
         // Prevent void DOM elements from receiving children
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
         'react/void-dom-elements-no-children': 'error'
-        
+
     }
 };

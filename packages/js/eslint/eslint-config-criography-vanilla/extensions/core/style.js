@@ -2,13 +2,7 @@ module.exports = {
     rules : {
         // enforce line breaks after opening and before closing array brackets
         // http://eslint.org/docs/rules/array-bracket-newline
-        'array-bracket-newline' : [
-            'error',
-            {
-                multiline: true,
-                minItems : 3
-            }
-        ],
+        'array-bracket-newline' : ['error', 'consistent'],
 
         // enforce spacing inside array brackets
         // https://eslint.org/docs/rules/array-bracket-spacing
@@ -16,8 +10,10 @@ module.exports = {
 
         // enforce line breaks between array elements
         // http://eslint.org/docs/rules/array-element-newline
+        // overridden by 'sift/array-element-newline'
+        // @TODO revisit once 'consistent' option lands
         'array-element-newline' : [
-            'error',
+            'off',
             {
                 multiline: true,
                 minItems : 3
@@ -127,7 +123,8 @@ module.exports = {
 
         // enforce consistent line breaks inside function parentheses
         // https://eslint.org/docs/rules/function-paren-newline
-        'function-paren-newline' : ['error', 'multiline'],
+        // overridden by 'sift/function-paren-newline'
+        'function-paren-newline' : ['off', 'multiline'],
 
         // Blacklist certain identifiers to prevent them being used
         // http://eslint.org/docs/rules/id-blacklist
@@ -165,30 +162,30 @@ module.exports = {
         // http://eslint.org/docs/rules/indent
         indent : [
             'error',
-            2,
+            4,
             {
-                SwitchCase        : 2,
+                SwitchCase        : 1,
                 VariableDeclarator: {
-                    var  : 2,
-                    let  : 2,
-                    const: 3
+                    var  : 1,
+                    let  : 1,
+                    const: 1
                 },
-                outerIIFEBody      : 2,
-                MemberExpression   : 2,
+                outerIIFEBody      : 1,
+                MemberExpression   : 1,
                 FunctionDeclaration: {
-                    parameters: 2,
-                    body      : 2
+                    parameters: 1,
+                    body      : 1
                 },
                 FunctionExpression : {
-                    parameters: 2,
-                    body      : 2
+                    parameters: 1,
+                    body      : 1
                 },
                 CallExpression : {
-                    arguments : 2
+                    arguments : 1
                 },
-                ArrayExpression       : 2,
-                ObjectExpression      : 2,
-                ImportDeclaration     : 2,
+                ArrayExpression       : 1,
+                ObjectExpression      : 1,
+                ImportDeclaration     : 1,
                 flatTernaryExpressions: false,
                 ignoredNodes          : ['JSXElement', 'JSXElement *']
             }
@@ -254,7 +251,8 @@ module.exports = {
                 allowArrayStart   : true,
                 allowArrayEnd     : true,
                 allowClassStart   : true,
-                allowClassEnd     : true
+                allowClassEnd     : true,
+                ignorePattern     : '^\\*[-]{74,}[\\n\\s\\r]*?\\*\\sENDOF'
             }
         ],
 
