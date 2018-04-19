@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-criography-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React JS ESLint config",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/criography/frontend-standards",
   "dependencies": {
-    "eslint-config-criography-vanilla": "^1.0.1"
+    "eslint-config-criography-vanilla": "^1.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
