@@ -259,7 +259,7 @@ module.exports = {
         // Prevent unassigned imports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
         // importing for side effects is perfectly acceptable, if you need side effects.
-        'import/no-unassigned-import' : 'error',
+        'import/no-unassigned-import' : ['error', {"allow": ["**/*.css"]}],
 
 
         // Prevent importing the default as if it were named
