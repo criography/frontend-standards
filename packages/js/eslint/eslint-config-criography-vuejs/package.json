@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-criography-vuejs",
+  "version": "1.0.6",
+  "description": "VueJS ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint --report-unused-disable-directives .",
+    "fix": "npx eslint --fix .",
+    "stage": "npm run fix && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criography/frontend-standards"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Marek Lenik (https://twitter.com/criography)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/criography/frontend-standards/issues"
+  },
+  "homepage": "https://github.com/criography/frontend-standards",
+  "dependencies": {
+    "eslint-config-criography-vanilla": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.19.1",
+    "eslint-find-rules": "^3.2.2",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-import-resolver-webpack": "^0.9.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "engines": {
+    "node": ">= 9"
+  }
+}
