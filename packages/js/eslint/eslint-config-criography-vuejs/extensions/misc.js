@@ -13,14 +13,10 @@ module.exports = {
 
         // enforce consistent indentation in `<script>`
         // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/script-indent.md
-        'vue/script-indent' : ['error', {
-            "script-indent" : [
-                "error", 4, {
-                    "baseIndent" : 1,
-                    "switchCase" : 1,
-                    "ignores"    : []
-                }
-            ]
+        'vue/script-indent' : [ "error", 4, {
+            "baseIndent" : 1,
+            "switchCase" : 1,
+            "ignores"    : []
         }],
 
 

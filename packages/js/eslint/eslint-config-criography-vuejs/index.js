@@ -3,8 +3,8 @@ module.exports = {
         'eslint-config-criography-vanilla',
         './extensions/base',
         './extensions/essential',
-        './extensions/stronglyRequired',
-        './extensions/required',
+        './extensions/stronglyRecommended',
+        './extensions/recommended',
         './extensions/misc',
     ].map(require.resolve),
     rules: {}
