@@ -6,7 +6,10 @@ module.exports = {
             "error",
             "PascalCase",
             {
-                "ignores" : []
+                "ignores" : [
+                    'router-link',
+                    'router-view'
+                ]
             }
         ],
 
