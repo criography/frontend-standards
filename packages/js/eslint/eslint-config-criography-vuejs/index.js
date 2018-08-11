@@ -7,6 +7,14 @@ module.exports = {
         './extensions/recommended',
         './extensions/misc',
     ].map(require.resolve),
-    rules: {}
+    rules: {},
+    'overrides' : [
+        {
+            'files' : ['*.vue'],
+            'rules' : {
+                'indent' : 'off'
+            }
+        }
+    ]
 };
 
