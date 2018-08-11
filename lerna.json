@@ -2,6 +2,7 @@
   "lerna": "2.10.2",
   "packages": [
     "packages/js/eslint/eslint-config-criography-vanilla",
+    "packages/js/eslint/eslint-config-criography-vuejs",
     "packages/js/eslint/eslint-config-criography-react"
   ],
   "version": "independent"
