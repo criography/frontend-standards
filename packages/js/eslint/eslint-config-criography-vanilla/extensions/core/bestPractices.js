@@ -55,8 +55,7 @@ module.exports = {
         // http://eslint.org/docs/rules/eqeqeq
         eqeqeq : [
             'error',
-            'always',
-            {null : 'always'}
+            'smart'
         ],
 
         // make sure for-in loops have an if statement
@@ -93,7 +92,7 @@ module.exports = {
 
         // disallow comparisons to null without a type-checking operator
         // https://eslint.org/docs/rules/no-eq-null
-        'no-eq-null' : 'error',
+        'no-eq-null' : 'off',
 
         // disallow use of eval()
         // https://eslint.org/docs/rules/no-eval

@@ -183,7 +183,9 @@ module.exports = {
         // No Node.js builtin modules
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
         // @TODO: disable for node projects. (env?)
-        'import/no-nodejs-modules' : 'error',
+        'import/no-nodejs-modules' : ['error', {
+            'allow' : ['prop-types']
+        }],
 
 
 
@@ -225,8 +227,9 @@ module.exports = {
 
         // Enforce a convention in module import order
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+        // this works on paper, but most of the time is imperfect. Needs a custom regex support
         'import/order' : [
-            'warn',
+            'off',
             {
                 groups : [
                     'builtin',

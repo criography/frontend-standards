@@ -73,7 +73,7 @@ module.exports = {
         // Validate JSX maximum depth (
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md
         'react/jsx-max-depth': ['error', {
-            max: 4 
+            max: 4
         }],
 
 
@@ -148,7 +148,7 @@ module.exports = {
 
         // Enforce defaultProps declarations alphabetical sorting (
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md
-        'react/jsx-sort-default-props': ['error', {
+        'react/jsx-sort-default-props': ['off', {
             ignoreCase: true
         }],
 
