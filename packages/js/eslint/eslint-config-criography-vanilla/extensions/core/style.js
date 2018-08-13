@@ -277,6 +277,7 @@ module.exports = {
                 tabWidth              : 4,
                 comments              : 92,
                 ignoreComments        : true,
+                ignorePattern         : '<path([\s\S]*?)/>',
                 ignoreTrailingComments: false,
                 ignoreUrls            : true,
                 ignoreStrings         : true,
