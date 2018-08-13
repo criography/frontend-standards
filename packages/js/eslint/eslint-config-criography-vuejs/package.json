@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-criography-vuejs",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "VueJS ESLint config",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/criography/frontend-standards",
   "dependencies": {
-    "eslint-config-criography-vanilla": "^1.0.7"
+    "eslint-config-criography-vanilla": "^1.0.8"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
