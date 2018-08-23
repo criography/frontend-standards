@@ -134,6 +134,7 @@ module.exports = {
                     '**/__tests__/**', // jest pattern
                     '**/__mocks__/**', // jest pattern
                     'test.{js,jsx}', // repos with a single test file
+                    'setupTests.js', //Jest/enzyme setup file
                     '**/test.{js,jsx}', // repos with a single test file per component
                     'test-*.{js,jsx}', // repos with multiple top-level test files
                     '**/*.{test,spec}.{js,jsx}', // tests where the extension denotes that it is a test
