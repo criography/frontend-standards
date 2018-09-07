@@ -1,11 +1,12 @@
 module.exports = {
     extends: [
         'eslint-config-criography-vanilla',
-        './extensions/base',
-        './extensions/essential',
-        './extensions/stronglyRecommended',
-        './extensions/recommended',
-        './extensions/misc',
+        './extensions/core/base',
+        './extensions/core/essential',
+        './extensions/core/stronglyRecommended',
+        './extensions/core/recommended',
+        './extensions/core/misc',
+        './extensions/extras/require-jsdoc-except',
     ].map(require.resolve),
 
 
