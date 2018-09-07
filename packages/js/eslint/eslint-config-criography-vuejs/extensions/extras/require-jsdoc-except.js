@@ -1,4 +1,7 @@
 module.exports = {
+    plugins : ['require-jsdoc-except'],
+
+
     rules : {
         // disable original rule
         // http://eslint.org/docs/rules/require-jsdoc
