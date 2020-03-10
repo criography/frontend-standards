@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-criography-vanilla",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Vanilla JS ESLint config",
     "main": "index.js",
     "scripts": {
