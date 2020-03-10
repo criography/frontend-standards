@@ -26,25 +26,25 @@
   },
   "homepage": "https://github.com/criography/frontend-standards",
   "dependencies": {
-    "eslint-config-criography-vanilla": "^1.0.12"
+    "eslint-config-criography-vanilla": "1.0.13"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "editorconfig-tools": "^0.1.1",
-    "eslint": "^5.3.0",
-    "eslint-find-rules": "^3.3.1",
-    "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
+    "babel-eslint": "8.2.6",
+    "editorconfig-tools": "0.1.1",
+    "eslint": "5.3.0",
+    "eslint-find-rules": "3.3.1",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.10.0",
     "react": ">=16.4.2"
   },
   "peerDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-import-resolver-webpack": "^0.9.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint": "5.3.0",
+    "eslint-import-resolver-webpack": "0.9.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.10.0"
   },
   "engines": {
     "node": ">= 9"
