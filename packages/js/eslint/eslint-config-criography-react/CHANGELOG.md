@@ -1,3 +1,3 @@
 1.0.0 – 2018.04.14
 ------------------
- - Initial release
+ - Initial release.
