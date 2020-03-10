@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-criography-vuejs",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "VueJS ESLint config",
   "main": "index.js",
   "scripts": {
